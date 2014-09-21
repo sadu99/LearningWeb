@@ -708,7 +708,11 @@ figure.effect-marley:hover h2 {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
-
+a.visibleLink {
+	visible: true;
+	display: block;
+	opacity: 1;
+}
 figure.effect-marley h2::after {
 	position: absolute;
 	top: 100%;
@@ -1145,4 +1149,8 @@ figure.effect-chico:hover p {
 	.grid figure {
 		width: 100%;
 	}
+}
+
+.effect-ruby p a: hover {
+	opacity: 1;
 }
