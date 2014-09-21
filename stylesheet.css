@@ -1,0 +1,19 @@
+banner {
+    position: fixed;
+    top: 250px;
+    right: 0;
+}
+
+nav{
+
+	background-color: black;
+	height:40px;
+
+	color: white;
+}
+
+/*nav div{
+	border-radius: 10px;
+	background-color: red;
+	text-align: centre;
+}*/
