@@ -1,28 +1,47 @@
 		<!DOCTYPE HTML>
-		<html>
-			<head>	
+<html lang="en" class=" js flexbox flexboxlegacy"><head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Tab Styles Inspiration</title>
+		<meta name="description" content="Tab Styles Inspiration: A small collection of styles for tabs">
+		<meta name="keywords" content="tabs, inspiration, web design, css, modern, effects, svg">
+		<meta name="author" content="Codrops">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link rel="stylesheet" type="text/css" href="css/tabs.css">
+		<link rel="stylesheet" type="text/css" href="css/tabstyles.css">
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<title>Hackathon 2014</title>
+			<section>
+				<div>
+					<h1 style = "text-align:center">WEB LEARN</h1>
+				</div>
+				<div class="tabs tabs-style-line">
+					<nav>
+						<ul>
+						    <li><a href="https://sadu99.github.io/LearningWeb"><span>Home</span></a></li>
+							<li><a href="https://sadu99.github.io/LearningWeb/frontend.html"><span>Front End</span></a></li>
+							<li><a href="https://sadu99.github.io/LearningWeb/backend.html"><span>Back End</span></a></li>
+							<li><a href="https://sadu99.github.io/LearningWeb/UX.html"><span>User Interface/User Experience</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			
+		</div><!-- /container -->
+		<script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
 
-			<title>Hackathon 2014</title>
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
 
-				<link href = "css/bootstrap.min.css" rel = "stylesheet">
-
-				<link href = "http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel = "stylesheet">
-
-				<link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
-
-			</head>
-
-			<body>
-				
-			<h1> LEARN-WEB!! </h1>
-
-				<a href = "Frontend.html" class = "btn btn-success" >  Frontend </a>
-
-				<a href = "Backend.html" class = "btn btn-success" >  Backend </a>
-
-				<a href = "UX.html" class = "btn btn-success" >  User Interface/User Experience </a>
-
-
-
-			</body>
-		</html>
+			})();
+		</script>
+	
+</body></html>
