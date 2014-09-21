@@ -1,17 +1,46 @@
-		<!DOCTYPE HTML>
-		<html>
-			<head>
+		<!DOCTYPE HTML><html lang="en" class=" js flexbox flexboxlegacy"><head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Tab Styles Inspiration</title>
+		<meta name="description" content="Tab Styles Inspiration: A small collection of styles for tabs">
+		<meta name="keywords" content="tabs, inspiration, web design, css, modern, effects, svg">
+		<meta name="author" content="Codrops">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link rel="stylesheet" type="text/css" href="css/tabs.css">
+		<link rel="stylesheet" type="text/css" href="css/tabstyles.css">
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+			<section>
+				<div class="tabs tabs-style-line">
+					<nav>
+						<ul>
+							<li><a href="http://sadu99.github.io/LearningWeb/index.html"><span>Home</span></a></li>
+							<li><a href="http://sadu99.github.io/LearningWeb/Frontend.html"><span>Front End</span></a></li>
+							<li class="tab-current"><a href="http://sadu99.github.io/LearningWeb/Backend.html"><span>Back End</span></a></li>
+							<li><a href="http://sadu99.github.io/LearningWeb/UX.html"><span>User Interface/User Experience</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			
+		</div><!-- /container -->
+		<div>
+			<h1>Backend</h1>
+		<div>
 
-			<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
 
-				<link href = "http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel = "stylesheet">
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
 
-				<link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
-				
-				<title></title>
-			</head>
-
-			<body>
-				<h1>WELCOME TO BACKEND!!</h1>
-			</body>
-		</html>
+			})();
+		</script>
+	
+</body></html>
