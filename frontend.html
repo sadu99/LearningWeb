@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class= "js flexbox flexboxlegacy">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
@@ -21,16 +21,13 @@
 
 		<title>Hackathon 2014</title>
 			<section>
-				<div>
-					<h1 style = "text-align:center">WEB LEARN</h1>
-				</div>
 				<div class="tabs tabs-style-line">
 					<nav>
 						<ul>
-						    <li><a href="https://sadu99.github.io/LearningWeb/index.html"><span>Home</span></a></li>
-							<li><a href="https://sadu99.github.io/LearningWeb/frontend.html"><span>Front End</span></a></li>
-							<li><a href="https://sadu99.github.io/LearningWeb/backend.html"><span>Back End</span></a></li>
-							<li><a href="https://sadu99.github.io/LearningWeb/UX.html"><span>User Interface/User Experience</span></a></li>
+							<li><a href="http://sadu99.github.io/LearningWeb/index.html"><span>Home</span></a></li>
+							<li class="tab-current"><a href="http://sadu99.github.io/LearningWeb/Frontend.html"><span>Front End</span></a></li>
+							<li><a href="http://sadu99.github.io/LearningWeb/Backend.html"><span>Back End</span></a></li>
+							<li><a href="http://sadu99.github.io/LearningWeb/UX.html"><span>User Interface/User Experience</span></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -84,6 +81,12 @@
 				</figure>	
 				
 			</div>
-
+		</div><!-- /container -->
+		<script>
+			// For Demo purposes only
+			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+			} );
+		</script>
 	</body>
 </html>
